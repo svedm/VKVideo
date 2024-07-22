@@ -10,7 +10,4 @@ struct VideoStandalone: Codable {
     let catalog: Catalog
     let groups: [Group]
     let videos: [Video]
-    let albums: [JSONAny]
-    let navigationTabs: [JSONAny]
-    let feedbacks: [JSONAny]
 }
